@@ -76,50 +76,50 @@ Normal           white             none
 Terminal         white             none
 
 ; Group              Foreground        Background        Attributes
-ColorColumn          white             black
+ColorColumn          white             none
 Conceal              none              none
-Cursor               white             black
-CursorColumn         white             black
-CursorLine           white             black
-CursorLineNr         white             black
+Cursor               white             none
+CursorColumn         white             none
+CursorLine           white             none
+CursorLineNr         white             none
 DiffAdd              black             green
 DiffChange           black             white
 DiffDelete           black             red
-DiffText             accent            black             bold
-Directory            white             black
+DiffText             accent            white             bold
+Directory            white             none
 EndOfBuffer          none              none
-ErrorMsg             white             black             reverse
-FoldColumn           white             black
-Folded               white             black             italic
+ErrorMsg             white             none              reverse
+FoldColumn           white             none
+Folded               white             none              italic
 IncSearch            black             accent            bold
-LineNr               white             black
-MatchParen           black             accent             bold,reverse
-ModeMsg              white             black
-MoreMsg              white             black
-NonText              grey              black
+LineNr               grey              none
+MatchParen           black             accent            bold,reverse
+ModeMsg              white             none
+MoreMsg              white             none
+NonText              grey              none
 Pmenu                white             black
 PmenuSbar            white             black
 PmenuSel             white             black             reverse
-PmenuThumb           white             black
-Question             white             black
+PmenuThumb           white             none
+Question             white             none
 Search               black             accent            bold
-SignColumn           white             black
-SpecialKey           white             black
-SpellBad             accent            black             underline
-SpellCap             white             black
-SpellLocal           white             black
-SpellRare            white             black
-StatusLine           white             black
-StatusLineNC         white             black
-Substitute           accent            black             bold,reverse
-TabLine              white             black
-TabLineFill          white             black
-TabLineSel           white             black             reverse
-Title                white             black
-VertSplit            white             black
-Visual               white             black             reverse
-VisualNOS            white             black
-WarningMsg           white             black
+SignColumn           white             none
+SpecialKey           white             none
+SpellBad             accent            none              underline
+SpellCap             white             none
+SpellLocal           white             none
+SpellRare            white             none
+StatusLine           white             none
+StatusLineNC         white             none
+Substitute           accent            none              bold,reverse
+TabLine              white             none
+TabLineFill          white             none
+TabLineSel           white             none              reverse
+Title                white             none
+VertSplit            white             none
+Visual               white             none              reverse
+VisualNOS            white             none
+WarningMsg           white             none
 WildMenu             white             black             reverse
 ; Other conventional group names (see `:help group-name`)
 Comment              grey              none              italic
